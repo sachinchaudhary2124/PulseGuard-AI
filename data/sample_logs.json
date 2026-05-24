@@ -1,0 +1,82 @@
+[
+  {
+    "timestamp": "2026-05-23 09:00:01",
+    "endpoint": "/login",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 120,
+    "server": "server-1"
+  },
+  {
+    "timestamp": "2026-05-23 09:02:14",
+    "endpoint": "/payment",
+    "method": "POST",
+    "status_code": 500,
+    "response_time_ms": 4200,
+    "server": "server-2"
+  },
+  {
+    "timestamp": "2026-05-23 09:03:40",
+    "endpoint": "/orders",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 180,
+    "server": "server-1"
+  },
+  {
+    "timestamp": "2026-05-23 09:05:11",
+    "endpoint": "/payment",
+    "method": "POST",
+    "status_code": 503,
+    "response_time_ms": 5100,
+    "server": "server-2"
+  },
+  {
+    "timestamp": "2026-05-23 09:06:55",
+    "endpoint": "/inventory",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 240,
+    "server": "server-3"
+  },
+  {
+    "timestamp": "2026-05-23 09:08:23",
+    "endpoint": "/login",
+    "method": "POST",
+    "status_code": 401,
+    "response_time_ms": 95,
+    "server": "server-1"
+  },
+  {
+    "timestamp": "2026-05-23 09:09:44",
+    "endpoint": "/payment",
+    "method": "POST",
+    "status_code": 500,
+    "response_time_ms": 4700,
+    "server": "server-2"
+  },
+  {
+    "timestamp": "2026-05-23 09:11:10",
+    "endpoint": "/search",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 140,
+    "server": "server-3"
+  },
+  {
+    "timestamp": "2026-05-23 09:13:29",
+    "endpoint": "/payment",
+    "method": "POST",
+    "status_code": 504,
+    "response_time_ms": 6100,
+    "server": "server-2"
+  },
+  {
+    "timestamp": "2026-05-23 09:15:02",
+    "endpoint": "/profile",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 170,
+    "server": "server-1"
+  }
+]
