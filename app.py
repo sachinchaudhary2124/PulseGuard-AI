@@ -447,4 +447,4 @@ No critical incidents detected.
 # LAUNCH APP
 # =========================================================
 
-app.launch(server_name="0.0.0.0", server_port=7860)
+app.launch()
